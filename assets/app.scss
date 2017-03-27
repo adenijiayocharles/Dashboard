@@ -178,7 +178,7 @@ textarea{
 }
 
 .content-box{
-	width: 30%;
+	width: 20%;
 	height: auto;
 	background-color: $white;
 	padding: 4px;
@@ -189,14 +189,7 @@ textarea{
     text-align: center;
     color: $dark_grey;
     box-shadow: 5px 5px 5px #E9EAEF;
-    
-    h4{
-        font-size: 16px;
-        border-bottom: 1px solid #F5F5F5;
-        padding: 5px 0;
-        font-weight: 700;
-    }
-    
+        
     h5{
         font-size: 40px;
         padding: 50px 0;
@@ -206,9 +199,32 @@ textarea{
         font-size: 15px;
     }
 
+    .image{
+        width:100%;
+        height: 100px;
+        background: red;
+    }   
 
-    figure img{
-        height:200px;
+    .headline{
+        width:100%;
+        height: auto;
+        margin-top: 10px;
+        background: yellow;
+    }
+
+    .source{
+        width:100%;
+        height: auto;
+        margin: auto;
+
+        h4{
+            float: left;
+        }
+
+        i{
+            float: right;
+            margin: 7px 7px 0 0;
+        }
     }    
 }
 
