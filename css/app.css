@@ -156,7 +156,11 @@ textarea {
   .content-box .image {
     width: 100%;
     height: 100px;
+    overflow: hidden;
     border-bottom: 1px solid #F6F6F6; }
+    .content-box .image img {
+      max-width: 100%; 
+    }
   .content-box .headline {
     width: 100%;
     height: auto;
