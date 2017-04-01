@@ -238,6 +238,15 @@ textarea{
             margin: 7px 7px 0 0;
         }
     }    
+
+    a{
+        color: black;
+        text-decoration: none;
+    }
+
+    &:hover{
+        color: $dark_grey;
+    }
 }
 
 .full-width{

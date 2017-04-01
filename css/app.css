@@ -179,6 +179,11 @@ textarea {
     .content-box .source i {
       float: right;
       margin: 7px 7px 0 0; }
+  .content-box a {
+    color: black;
+    text-decoration: none; }
+  .content-box:hover {
+    color: #3f3d4e; }
 
 .full-width {
   width: 100%;
