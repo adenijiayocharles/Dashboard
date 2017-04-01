@@ -6,7 +6,8 @@ function displayNews(data){
 		var name = data[i].name;
 		var description = data[i].description.substr(0,50);
 		var urlToImage = data[i].urlsToLogos.medium;
-		html += "<div class='content-box'><div class='image'><a href=''><img src="+ urlToImage +"></div><div class='headline'>"+ description +"</div></a></div>";
+		var url = data[i].url;
+		html += "<div class='content-box'><div class='image'><a href='view-news.html?source="+ url +"'><img src="+ urlToImage +"></div><div class='headline'>"+ description +"</div></a></div>";
 	}
 	news.insertAdjacentHTML('beforeend', html);
 }
