@@ -1,2 +1,2 @@
 # Dashboard
-Work in progres
+Work in progress
